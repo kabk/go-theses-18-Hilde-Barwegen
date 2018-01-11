@@ -19,6 +19,17 @@ article p {
 	margin: 1em 0;
 }
 
+.linkk {
+	text-decoration: none;
+	border: 1px solid #800080;
+	border-style: groove;
+	padding: px;
+}
+
+.linkk:visited {
+	border: 1px solid #800080;
+}
+
 figure {
 	width:
 }
@@ -26,26 +37,26 @@ figure {
     background-color: #e7e7e7;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding:
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin:
     cursor: ;
 }
 
 .print2 {
-    background-color: #e7e7e7;
+    background-color:
     border: 1px;
     color: white;
-    padding: 15px 32px;
+    padding:
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
-    cursor: ;
+    margin:
+    cursor:;
 }
 
 .message.alert {
