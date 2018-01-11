@@ -1,0 +1,76 @@
+article {
+	border-right: solid 0.2em purple;
+}
+
+.login a p {display:none;}
+.login a:hover p {display:block;}
+.login a:hover {display:block;}
+
+article h1 {
+	color: purple;
+
+}
+article h2 {
+	color: purple;
+
+}
+
+article p {
+	margin: 1em 0;
+}
+
+figure {
+	width:
+}
+.print1 {
+    background-color: #e7e7e7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: ;
+}
+
+.print2 {
+    background-color: #e7e7e7;
+    border: 1px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: ;
+}
+
+.message.alert {
+	width:90%;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 1em;
+	padding: 1em;
+	border-color: red;
+}
+
+.message.warning {
+	width: 30%;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 1em;
+	padding: 1em;
+	border-color: purple;
+}
+
+.info {
+  font-family: monospace;
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  top: 20px;
+}
