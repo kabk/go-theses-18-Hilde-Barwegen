@@ -1,3 +1,5 @@
+body {background-color: rgbda(204, 204, 204, 1);}
+
 article {
 	border-right: solid 0.2em purple;
 }
@@ -57,6 +59,10 @@ figure {
     font-size: 16px;
     margin:
     cursor:;
+}
+
+iframe {
+	width: %
 }
 
 .message.alert {
