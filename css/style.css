@@ -4,6 +4,12 @@ article {
 	border-right: solid 0.2em purple;
 }
 
+div.try {
+    background-color: #00FFFF;
+    width: 1000px;
+    height: 100px;
+    overflow: scroll;
+}
 .login a p {display:none;}
 .login a:hover p {display:block;}
 .login a:hover {display:block;}
