@@ -1,7 +1,74 @@
 body {background-color: rgbda(204, 204, 204, 1);}
 
+
+
+/*
+html,body{margin:0;}
+header{
+	position: fixed;
+	top:0;
+	height: 125px;
+	width: 100%;
+	background: white;
+}
+
+main{
+	margin-bottom: 8px;
+}
+
+@supports (height: 100vh) {
+	body{
+		background: linear-gradient(to right top, #0089f2 50%, #DDD 50%);
+		background-size: 100% calc(100% - 100vh + 129px);
+		background-repeat: no-repeat;
+	}
+
+	body:before{
+		content:'';
+		position: fixed;
+		top: 128px;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		background: white;
+	}
+} */
+
+
+
+
+
+
+
+
+
+dialog {
+	color: purple;
+	line: dotted;
+	outline-width: thin;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 20%;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 article {
-	border-right: solid 0.2em purple;
+	<!-- border-right: outset 10em purple; -->
 }
 
 div.try {
@@ -69,6 +136,17 @@ figure {
 
 iframe {
 	width: %
+}
+
+
+
+
+element.style {
+    position: absolute;
+    left: 756;
+    top: 171;
+    width: 108;
+    height: 27;
 }
 
 .message.alert {
